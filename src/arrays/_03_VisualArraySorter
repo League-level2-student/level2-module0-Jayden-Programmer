@@ -1,24 +1,21 @@
 /* Paste the code into a new Processing sketch and complete the steps. */
 
-//1. create an array of ints. don't initialize it yet.
+//1. create an array of ints. don't initialize it yet. 
 int[] arrayofints = new int();
 void setup() {
   //2. set the size of your window
   JButton window = new JButton(); 
   Random ran = new Random();
-  //  if you are using Processing 3, you cannot use variables
-  //  because the developers don't know how programming is supposed to work.
-
-  //3. initialize your array with the built in width variable
+  //  if you are using Processing 3, you cannot use variables	
+  //  because the developers don't know how programming is supposed to work.  
+  //3. initialize your array with the built in width variable 
   arrayofints = ran.nextInt(width);
   //4. initialize the ints in the array with random numbers
-  arrayofints[ran];
+  arrayofints[ran];  
   //   from 0 to the built in height variable
-
   //5. call the noStroke() method
 noStroke(); 
-}
-
+}					
 void draw() {
   //6. set the background color with background(r, g, b);
 background(100); 
